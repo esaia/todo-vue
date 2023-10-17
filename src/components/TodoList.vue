@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted, onUpdated, reactive, ref } from "vue";
+import { onMounted, ref } from "vue";
 import TodoItem from "./TodoItem.vue";
 import Plus from "../assets/icons/Plus.vue";
 import axios from "axios";
